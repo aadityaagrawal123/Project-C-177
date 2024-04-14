@@ -1,0 +1,54 @@
+body {
+    background-image: url('assets/background.jpg');
+    font-family: 'Pangolin', cursive;
+}
+
+#input_fields {
+    background: white;
+    padding: 1em;
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+.input_field {
+    width: 90%;
+    margin: 1em;
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: 1px solid black;
+    background: #91c4d2;
+}
+
+.input_field::placeholder {
+    color: black;
+}
+
+.rep_input {
+    text-decoration: underline;
+}
+
+.display_inline {
+    display: inline;
+    padding: 0.5em;
+}
+
+#alphabets-container {
+    margin-left: 21.25em;
+    background: white;
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+    border: 2px dashed black;
+    border-radius: 2em;
+}
+
+.alphabet_buttons {
+    background-color: #bfd892;
+    padding: 0.5em;
+    border-radius: 1em;
+    border: none;
+    margin: 0.5em;
+}
+
+.hidden {
+    display: none
+}
